@@ -31,14 +31,14 @@ export default function Home() {
 
   useEffect(() => {
     if (theUser !== null) {
-      if (theUser.acStatus !== "DEACTIVATED") {
+      if (theUser.acStatus !== "null") {
         var myHeaders = new Headers();
-        myHeaders.append("Authorization", "Bearer 53d037668d748648c12097863c2321ea61be9de0");
+        myHeaders.append("Authorization", "Bearer 74799c1a3ace07d9d568b092c8526cadcf55457a");
         myHeaders.append("Content-Type", "application/json");
         console.log('mko');
         console.log(process.env.REACT_APP_M3U_FUNCTION_BASE_URL);
         var raw = JSON.stringify({
-          "long_url": window.location.origin.replace('localhost', '127.0.0.1') + '/api/getM3u?sid=' + theUser.sid + '_' + theUser.acStatus[0] + '&id=' + theUser.id + '&sname=' + theUser.sName + '&tkn=' + token + '&ent=' + theUser.entitlements.map(x => x.pkgId).join('_')
+          "long_url": window.location.origin.replace('localhost', '127.0.0.1') + '/api/getM3u?sid=' + theUser.sid + '_' + 'A' + '&id=' + theUser.id + '&sname=' + theUser.sName + '&tkn=' + token + '&ent=' '1000000071_1000000156_1000000471_1000000500_1000000647_1000000711_1000000985_1000001051_1000001124_1000001131_1000001274_1000001296_1000001303_1000001368_1000001512_1000001573_1000001685_1000001694_1000001817_1000000001'
         });
 
         var requestOptions = {
@@ -57,7 +57,7 @@ export default function Home() {
           .catch(error => console.log('error', error));
       }
       else
-        console.log(window.location.origin.replace('localhost', '127.0.0.1') + '/api/getM3u?sid=' + theUser.sid + '_' + theUser.acStatus[0] + '&id=' + theUser.id + '&sname=' + theUser.sName + '&tkn=' + token + '&ent=' + theUser.entitlements.map(x => x.pkgId).join('_'));
+        console.log(window.location.origin.replace('localhost', '127.0.0.1') + '/api/getM3u?sid=' + theUser.sid + '_' + 'A' + '&id=' + theUser.id + '&sname=' + theUser.sName + '&tkn=' + token + '&ent=' '1000000071_1000000156_1000000471_1000000500_1000000647_1000000711_1000000985_1000001051_1000001124_1000001131_1000001274_1000001296_1000001303_1000001368_1000001512_1000001573_1000001685_1000001694_1000001817_1000000001';
     }
     else
       setDynamicUrl("");
@@ -202,7 +202,7 @@ export default function Home() {
                   <Segment loading={loading}>
                     <Header as="h1">Welcome, {theUser.sName}</Header>
                     {
-                      theUser !== null && theUser.acStatus !== "DEACTIVATED" ?
+                      theUser !== null && theUser.acStatus !== "null" ?
                         <Message>
                           <Message.Header>Dynamic URL to get m3u: </Message.Header>
                           {/* <Image centered src={'https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=' + encodeURIComponent(m3uMeta.url)} size='small' /> */}
