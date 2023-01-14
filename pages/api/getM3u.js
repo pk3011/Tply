@@ -8,7 +8,7 @@ export default async function handler(req, res) {
         sName: req.query.sname,
         token: req.query.tkn,
         ent: req.query.ent.split('_'),
-        tsActive: req.query.sid.split('_')[1] === "D" ? false : true
+        tsActive: req.query.sid.split('_')[0] === "D" ? false : true
     };
     if (uData.tsActive) {
         let m3uString = await generateM3u(uData);
@@ -213,4 +213,4 @@ const generateM3u = async (ud) => {
             m3uStr = userChanDetails.err.toString();
         return m3uStr;
     }
-}
++}
