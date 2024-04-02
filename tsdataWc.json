@@ -148,7 +148,7 @@
     "channel_name": "SONY SAB HD",
     "channel_catchup": true,
     "channel_lic_url": "https://tataplay.live.ott.irdeto.com/Widevine/getlicense?CrmId=tatasky&AccountId=tatasky&ContentId=400000047",
-    "channel_url": "https://rftv.wtf/tp/tplay.mpd?contentID=48",
+    "channel_url": "https://dai.google.com/linear/hls/event/CrTivkDESWqwvUj3zFEYEA/master.m3u8",
     "channel_ent": "1000002510",
     "channel_logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-141-j5fpeji0-v3/imageContent-141-j5fpeji0-m3.png",
     "channel_lang": "Hindi",
