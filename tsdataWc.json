@@ -2836,7 +2836,7 @@
         "channel_name": "TravelXP 4K HDR",
         "channel_catchup": false,
         "channel_lic_url": "https:\/\/tataplay.live.ott.irdeto.com\/Widevine\/getlicense?CrmId=tatasky&AccountId=tatasky&ContentId=400001074",
-        "channel_url": "https://tp.snehiptv-s6.workers.dev/923.mpd",
+        "channel_url": "https://deltatesttatasky.akamaized.net/out/i/968284.m3u8",
         "channel_ent": "1000001274",
         "channel_logo": "https:\/\/ltsk-cdn.s3.eu-west-1.amazonaws.com\/jumpstart\/Temp_Live\/cdn\/HLS\/Channel\/imageContent-63764-kr1kzw28-v2\/imageContent-63764-kr1kzw28-m2.png",
         "channel_lang": "English",
