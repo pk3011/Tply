@@ -220,7 +220,7 @@
         "channel_name": "STAR Plus HD",
         "channel_catchup": true,
         "channel_lic_url": "https:\/\/tataplay.live.ott.irdeto.com\/Widevine\/getlicense?CrmId=tatasky&AccountId=tatasky&ContentId=400000007",
-        "channel_url": "https://tataplay.code-crafters.app/manifest/8.mpd",
+        "channel_url": "https://itspkg.in/avyaan/tplay.mpd?contentID=8",
         "channel_ent": "1000001388",
         "channel_logo": "https:\/\/ltsk-cdn.s3.eu-west-1.amazonaws.com\/jumpstart\/Temp_Live\/cdn\/HLS\/Channel\/imageContent-25307-jhrhflww-v1\/imageContent-25307-jhrhflww-m1.png",
         "channel_lang": "Hindi",
