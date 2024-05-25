@@ -16,7 +16,7 @@
     "channel_name": "&TV",
     "channel_catchup": false,
     "channel_lic_url": "https://tataplay.live.ott.irdeto.com/Widevine/getlicense?CrmId=tatasky&AccountId=tatasky&ContentId=400000606",
-    "channel_url": "https://bpprod2catchup.akamaized.net/bpk-tv/irdeto_com_Channel_196/output/manifest.mpd?begin=20240524T000000&end=20240531T000000",
+    "channel_url": "https://bpprod2catchup.akamaized.net/bpk-tv/irdeto_com_Channel_196/output/manifest.mpd?begin=20240523T000000&end=20240531T000000",
     "channel_ent": "1000001131",
     "channel_logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-12129-j9p7kluo-v2/imageContent-12129-j9p7kluo-m3.png",
     "channel_lang": "Hindi",
