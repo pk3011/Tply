@@ -48,6 +48,18 @@
         "channel_hd": false
     },
     {
+        "channel_id": "1363",
+        "channel_name": "Anime Local",
+        "channel_catchup": true,
+        "channel_lic_url": "https://tataplay.live.ott.irdeto.com/Widevine/getlicense?CrmId=tatasky&AccountId=tatasky&ContentId=400001484",
+        "channel_url": "https://play.denver1769.in/tp.mpd?id=1363",
+        "channel_ent": "1000000001",
+        "channel_logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/TPANML_Thumbnail-v2/TPANML_Thumbnail.png",
+        "channel_lang": "Hindi",
+        "channel_genre": "Kids",
+        "channel_hd": false
+    },
+    {
         "channel_id": "840",
         "channel_name": "Shirdi Sai Baba",
         "channel_catchup": false,
