@@ -8267,6 +8267,18 @@
         "channel_genre": "Movies",
         "channel_hd": false
     },
+    "689": {
+        "channel_id": "1363",
+        "channel_name": "Anime Local",
+        "channel_catchup": false,
+        "channel_lic_url": "https://tataplay.live.ott.irdeto.com/Widevine/getlicense?CrmId=tatasky&AccountId=tatasky&ContentId=400001484",
+        "channel_url": "https://tp.snehiptv-s5.workers.dev/1363.mpd",
+        "channel_ent": "1000001035",
+        "channel_logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/TPANML_Thumbnail-v2/TPANML_Thumbnail.png",
+        "channel_lang": "Hindi",
+        "channel_genre": "Movies",
+        "channel_hd": false
+    },
     "channels": {
         "channel_url": ".mpd"
     }
