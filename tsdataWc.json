@@ -1300,7 +1300,7 @@
         "channel_name": "Star Sports 1 Hindi HD",
         "channel_catchup": false,
         "channel_lic_url": "https:\/\/tataplay.live.ott.irdeto.com\/Widevine\/getlicense?CrmId=tatasky&AccountId=tatasky&ContentId=400000020",
-        "channel_url": "https://bpprod3catchup.akamaized.net/bpk-tv/irdeto_com_Channel_252/output/manifest.mpd?begin=20240615T013100&end=",
+        "channel_url": "https://tp.snehiptv-s5.workers.dev/24.mpd",
         "channel_ent": "1000001104",
         "channel_logo": "https:\/\/ltsk-cdn.s3.eu-west-1.amazonaws.com\/jumpstart\/Temp_Live\/cdn\/HLS\/Channel\/imageContent-60-j5fdr6a0-v1\/imageContent-60-j5fdr6a0-m1.png",
         "channel_lang": "Hindi",
