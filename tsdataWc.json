@@ -16,7 +16,7 @@
         "channel_name": "&tv HD",
         "channel_catchup": true,
         "channel_lic_url": "https:\/\/tataplay.live.ott.irdeto.com\/Widevine\/getlicense?CrmId=tatasky&AccountId=tatasky&ContentId=400000039",
-        "channel_url": "https://mpd.itspkg.fun/api/40.mpd",
+        "channel_url": "https://mpd.itspkg.fun/40.mpd",
         "channel_ent": "1000000368",
         "channel_logo": "https:\/\/ltsk-cdn.s3.eu-west-1.amazonaws.com\/jumpstart\/Temp_Live\/cdn\/HLS\/Channel\/imageContent-117-j5fl7440-v1\/imageContent-117-j5fl7440-m1.png",
         "channel_lang": "Hindi",
